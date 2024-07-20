@@ -1,0 +1,32 @@
+.item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#lightBoxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.54);
+  display: flex;
+}
+
+#boxItem {
+  width: 50%;
+  height: 500px;
+  background-image: url(../images/project-1.jpg);
+  background-size: cover;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#boxItem i {
+  font-size: 20px;
+  padding: 0px 10px;
+}
